@@ -1,0 +1,64 @@
+footer {
+	display: flex;
+	padding-top: 2%;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 2%;
+	justify-content: center;
+	background-color: #000000;
+	list-style: none;
+}
+
+.footernav {
+	display: flex;
+	justify-content: space-evenly;
+	margin-right: 25%;
+
+	li {
+		margin-top: 1%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
+.camion {
+	height: 24px;
+	width: 24px;
+}
+
+.vuelo {
+	height: 24px;
+	width: 24px;
+}
+
+.gmail {
+	height: 24px;
+	width: 24px;
+}
+
+.ig {
+	height: 24px;
+	width: 24px;
+}
+
+.facebook {
+	height: 24px;
+	width: 24px;
+}
+
+.tw {
+	height: 24px;
+	width: 24px;
+}
+
+.marcador {
+	height: 24px;
+	width: 24px;}
+	
+.footernav{
+		display: flex;
+		align-items: center;
+		margin: 5%;
+	}
+	.divfooter{
+		margin: 2%;
+	}

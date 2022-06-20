@@ -1,0 +1,156 @@
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #444444;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+.imgcarrousel {
+	max-height: 900px;
+	height: auto;
+	width: 100%;
+}
+
+.textos {
+	a {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.css-button-sliding-to-top--sand {
+	color: #ffffff;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	outline: none;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-radius: 1px;
+	background: rgb(0, 0, 0);
+	overflow: auto;
+	color: #d6d6d66f;
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	top: 0%;
+	z-index: 1;
+	font-family: 'Quicksand', sans-serif;
+
+	&:hover {
+		color: rgb(255, 255, 255);
+
+		&:after {
+			height: 100%;
+		}
+	}
+
+	&:after {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		transition: all 0.3s ease;
+		left: 0;
+		bottom: 0;
+		height: 0;
+		width: 10%;
+		background: #00a6ff6f;
+	}
+}
+.iconos-para-comprar{
+	display: flex;
+	padding-top: 2%;
+	width: 100%;
+	height:auto;
+	position:relative;
+	justify-content: space-around;
+	justify-items: center;
+}
+
+.camionsito {
+	margin-left: 22%;
+	height: 3rem;
+	width: 3rem;
+}
+.maestro{
+	height: 3rem;
+	width: 3rem;
+}
+.btc{
+	margin-right: 18%;
+	height: 3rem;
+	width: 3rem;
+}
+.avion1{
+	
+	height: 3rem;
+	width: 3rem;
+}
+.vuelo{
+	margin-right: 16%;
+	height: 3rem;
+	width: 3rem;
+}
+.visa1{
+	margin-left: 18%;
+	height: 3rem;
+	width: 3rem;
+}
+
+.envios-formas-envios {
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 1%;
+}
+
+.enviosgratis {
+	margin-right: 5%;
+}
+
+.enviosinternacionales {
+	margin-right: 2%;
+}
+
+.pagos {
+	margin-right: 4%;
+}
+
+.dolar {
+	height: 24px;
+	width: 24px;
+}
+.vuelo1{
+	height: 24px;
+	width: 24px;	
+}
+.cart {
+	height: 24px;
+	width: 24px;
+}
+p {
+	text-align: center;
+	color: #000000;
+	padding: 0 8px;
+}
+
+
+
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+}
+
+li {
+	padding: 5px;
+}
